@@ -1,3 +1,11 @@
 from django.contrib import admin
 
-# Register your models here.
+from shop.models import *
+
+admin.site.register(User)
+admin.site.register(Category)
+admin.site.register(Discount)
+admin.site.register(Product)
+admin.site.register(Order)
+admin.site.register(Like)
+admin.site.register(Commentary)
